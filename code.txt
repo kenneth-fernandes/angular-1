@@ -7,8 +7,4 @@ Where e.Id = f.Id and f.cnt=1;
 
 select * from Employee1;
 
-<<<<<<< HEAD
-BRANCH --- 1
-=======
-BRANCH -- 2
->>>>>>> branch2
+MASTER
