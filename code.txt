@@ -1,0 +1,8 @@
+select distinct e.Id,e.Name, e.Address,e.Age
+from Employee1 e,
+(
+select count(Id) as cnt, Id from Employee1 group by Id
+)f
+Where e.Id = f.Id and f.cnt=1;
+
+select * from Employee1;
