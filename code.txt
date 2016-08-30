@@ -6,3 +6,5 @@ select count(Id) as cnt, Id from Employee1 group by Id
 Where e.Id = f.Id and f.cnt=1;
 
 select * from Employee1;
+
+MASTER
